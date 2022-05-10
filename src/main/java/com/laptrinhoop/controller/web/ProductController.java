@@ -23,6 +23,7 @@ import com.laptrinhoop.service.IProductService;
 @Controller
 public class ProductController {
 
+
 	@Autowired
 	private ICategoryService service;
 	@Autowired

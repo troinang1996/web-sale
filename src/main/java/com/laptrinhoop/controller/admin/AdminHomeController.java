@@ -22,4 +22,5 @@ public class AdminHomeController {
 		return "redirect:/admin/home/index";
 	}
 
+
 }

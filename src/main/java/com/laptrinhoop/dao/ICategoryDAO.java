@@ -2,7 +2,7 @@ package com.laptrinhoop.dao;
 
 import com.laptrinhoop.entity.Category;
 
-public interface ICategoryDAO extends IGeneralDAO<Category, Integer> {
+public interface ICategoryDAO extends IGeneralDAO<Category, Integer>  {
 //	Category findById(Integer id);
 //
 //	List<Category> findAll();
@@ -12,5 +12,6 @@ public interface ICategoryDAO extends IGeneralDAO<Category, Integer> {
 //	void update(Category category);
 //
 //	Category delete(Integer id);
+
 
 }

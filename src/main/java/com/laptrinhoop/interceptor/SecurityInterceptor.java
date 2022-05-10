@@ -1,18 +1,16 @@
 package com.laptrinhoop.interceptor;
 
-import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.HandlerInterceptor;
-
 import com.laptrinhoop.entity.Category;
 import com.laptrinhoop.entity.Customer;
 import com.laptrinhoop.service.ICategoryService;
 import com.laptrinhoop.service.IHttpService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.HandlerInterceptor;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 
 @Component
 public class SecurityInterceptor implements HandlerInterceptor {

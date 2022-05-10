@@ -5,6 +5,7 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
+import ch.qos.logback.core.db.dialect.DBUtil;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -51,5 +52,7 @@ public class HibernateConfig {
 	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory) {
 		return new HibernateTransactionManager(sessionFactory);
 	}
+
+
 
 }
